@@ -21,7 +21,7 @@ const handleRequest = frames(async (ctx) => {
           pathname: `/tx`,
           query: { amount: ctx?.message?.inputText },
         }}
-        post_url={`${VERCEL_URL}/seamless`}
+        post_url={`${VERCEL_URL}/layer3`}
       >
         {amountMessage}
       </Button>,

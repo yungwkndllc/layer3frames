@@ -8,7 +8,7 @@ const handleRequest = frames(async (ctx) => {
     <Button
       action="tx"
       target={`${VERCEL_URL}/layer3/compound`}
-      post_url="/lend"
+      post_url="/compound/lend"
     >
       Complete Compound Finance Quest
     </Button>,

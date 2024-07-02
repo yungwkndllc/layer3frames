@@ -1,5 +1,5 @@
 export const IMAGE_URL =
-  "https://arweave.net/VgkozyIoaTBWE7j_qiVskIUa2UfRIKc78A-F2Uu9XFY";
+  "https://arweave.net/XrkFvkSP3Fphr6LMRNlNl7gF2W3TW-FwRYc4Oyq1orQ";
 export const VERCEL_URL = "https://layer3frames.vercel.app";
 
 export const USDC_ADDRESS = "0xaf88d065e77c8cC2239327C5EDb3A432268e5831";

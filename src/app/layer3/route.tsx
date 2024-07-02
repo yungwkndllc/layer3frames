@@ -5,11 +5,7 @@ import { IMAGE_URL, VERCEL_URL } from "@/utils";
 
 const handleRequest = frames(async (ctx) => {
   let buttons = [
-    <Button
-      action="tx"
-      target={`${VERCEL_URL}/layer3/compound`}
-      post_url="/compound/lend"
-    >
+    <Button action="post" target={`${VERCEL_URL}/layer3/compound`}>
       Complete Compound Finance Quest
     </Button>,
   ];

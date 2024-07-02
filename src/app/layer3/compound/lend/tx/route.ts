@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { Abi, encodeFunctionData } from "viem";
-import { USDC_ADDRESS, COMPOUND_ADDRESS } from "@/utils";
+import { USDC_ADDRESS, COMPOUND_ADDRESS, CHAIN_ID } from "@/utils";
 import { frames } from "./tx";
 import { transaction } from "frames.js/core";
 import { ethers } from "ethers";
@@ -24,7 +24,7 @@ const handleRequest = frames(async (ctx) => {
   });
 
   return transaction({
-    chainId: "eip155:8453",
+    chainId: `eip155:${CHAIN_ID}`,
     method: "eth_sendTransaction",
     attribution: false,
     params: {

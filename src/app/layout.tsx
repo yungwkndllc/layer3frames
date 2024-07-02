@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "seamless",
-  description: "lend usdc on seamless",
+  title: "frame quests",
+  description: "on arbitrum",
 };
 
 export default function RootLayout({

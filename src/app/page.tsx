@@ -9,11 +9,11 @@ const DynamicRedirect = dynamic(() => import("./components/Redirect"), {
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "seamless",
-    description: "lend usdc on seamless",
+    title: "layer3",
+    description: "complete quests for layer3",
     other: {
       ...(await fetchMetadata(
-        new URL("/seamless", VERCEL_URL || "http://localhost:3000")
+        new URL("/layer3", VERCEL_URL || "http://localhost:3000")
       )),
     },
   };
